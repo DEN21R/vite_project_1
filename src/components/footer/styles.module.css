@@ -1,0 +1,48 @@
+.footerSection{
+    background-color: rgba(82, 96, 109, 1);
+     padding: 56px 100px 53px;
+}
+.citysSection{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding-bottom: 48px;
+
+   
+
+    p{
+        color: rgba(255, 255, 255, 1);
+        font-size: 22px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 1);
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    a{
+        color: rgba(208, 232, 255, 1);
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+.logoSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 54px;
+    border-top: 2px solid rgba(70, 84, 97, 1);
+
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 36.1px;
+    }
+}

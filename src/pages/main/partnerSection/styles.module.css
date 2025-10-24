@@ -1,0 +1,20 @@
+.partnerSection{
+    display: flex;
+    flex-direction: row;
+    padding: 75px 100px 64px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+.partner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56.39px;
+}
+p{
+    font-weight: 600;
+    font-size: 16px;
+    color:rgba(105, 105, 105, 0.8) ;
+}

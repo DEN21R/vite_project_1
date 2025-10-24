@@ -1,0 +1,13 @@
+
+.searchSection{
+    background-color: rgba(205, 231, 255, 1);
+    background-image: url('../../../assets/images/rectangle.png');
+    background-position: right top;
+    padding: 130px 100px 290px;
+    background-repeat: no-repeat;
+}
+.searchTitle{
+    margin: 0 0 25px;
+  font-size: 64px;
+  line-height: 100%;
+}

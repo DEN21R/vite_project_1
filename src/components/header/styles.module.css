@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    padding: 30px 100px;
+    background-color: #CDE7FF;
+    gap: 110px;
+}
+.coolJobIcon{
+    width: 140px;
+}
+section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+
+    ul,
+    div{
+        display: flex;
+        list-style: none;
+        gap:53px;
+        align-items: center;
+    }
+
+    a{
+        font-size: 15px;
+        font-weight: 600px;
+        color: rgba(0, 0, 0, 0.8);
+        text-decoration: none;
+    }
+    button{
+        background-color: rgba(255, 255, 255, 1);
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgba(39, 64, 89, 1);
+        padding: 13px;
+        cursor: pointer;
+    }
+}
