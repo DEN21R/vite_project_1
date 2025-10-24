@@ -1,5 +1,5 @@
 import search from '../../../../assets/icons/search.svg'
-import location from '../../../../assets/icons/location.svg'
+import locationSvg from '../../../../assets/icons/locationSvg.svg'
 import styles from './styles.module.css'
 
 
@@ -12,7 +12,7 @@ function SearchBar() {
             </div>
              <span className={styles.divider} />
             <div  className={styles.inputBlock}>
-                <img src={location} alt="" />
+                <img src={locationSvg} alt="" />
                 <input type="text" placeholder='Город, Страна' />
             </div>
            </form>

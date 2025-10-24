@@ -1,0 +1,14 @@
+.vacanciesGroup{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    row-gap: 27px; 
+    column-gap: 185px; 
+    
+}
+.vacanciesGroup > * {
+    flex: 0 1 270px;
+    box-sizing: border-box;
+    height: 350px;
+}
