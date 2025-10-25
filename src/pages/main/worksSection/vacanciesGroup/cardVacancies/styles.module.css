@@ -1,13 +1,35 @@
 .containerVacancies{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: rgba(255, 255, 255, 1);
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-  padding: 46px 40px;
+  padding: 46px 40px
 }
 .VacanciesBlock{
     display: flex;
     flex-direction: row;
     gap: 17px;
     align-items: center;
+}
+.locationSvg{
+    width: 19px;
+    height: 19px;
+    opacity: 0.6;
+}
+.vacanciesBlockTitle{
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(141, 141, 141, 0.8);
+}
+.vacanciesBlockText{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(141, 141, 141, 0.8);
+}
+.vacanciesBlockTopic{
+  max-width: 75%;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
 }

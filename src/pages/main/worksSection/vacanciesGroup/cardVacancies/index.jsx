@@ -6,16 +6,16 @@ function CardVacancies({svg,title,position,location,logoJob,info}) {
         <div className={styles.containerVacancies}>
             <div className={styles.VacanciesBlock}>
                 <img src={svg} alt="svg" />
-                <p>{title}</p>
+                <p className={styles.vacanciesBlockTitle}>{title}</p>
             </div>
-            <h4>{position}</h4>
+            <h4 className={styles.vacanciesBlockTopic}>{position}</h4>
             <div className={styles.VacanciesBlock}>
-                <img src={locationSvg} alt="" />
-                <p>{location}</p>
+                <img src={locationSvg} alt="locationSvg" className={styles.locationSvg}/>
+                <p className={styles.vacanciesBlockText}>{location}</p>
             </div>
             <div className={styles.VacanciesBlock}>
-                <img src={logoJob} alt="" />
-                <p>{info}</p>
+                <img src={logoJob} alt="logoJob" />
+                <p className={styles.vacanciesBlockText}>{info}</p>
             </div>
         </div>
     )

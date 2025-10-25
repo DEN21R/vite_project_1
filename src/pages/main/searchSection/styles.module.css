@@ -8,7 +8,12 @@
 }
 .searchTitle{
   width: 33%;
-    margin: 0 0 25px;
+    margin-bottom: 25px;
   font-size: 64px;
   line-height: 100%;
+}
+@media (max-width: 1440px) {
+  .searchTitle {
+    width: 100%;
+  }
 }

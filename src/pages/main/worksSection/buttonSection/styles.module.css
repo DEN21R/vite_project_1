@@ -1,0 +1,13 @@
+.containerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 20px 50px;
+    background-color:rgba(39, 64, 89, 1) ;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 91px;
+}
